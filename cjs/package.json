@@ -1,0 +1,11 @@
+{
+  "name": "cjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist/*.* && tsc",
+    "build:pack": "rm -rf ./dist/*.* && webpack",
+    "start": "node ./dist/cjs/cjs.js",
+    "start:pack": "node ./dist/cjs.js"
+  }
+}
